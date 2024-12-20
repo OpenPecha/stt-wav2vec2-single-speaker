@@ -1,0 +1,7 @@
+02_prepare_data.ipynb
+03_fine_tune.ipynb
+04_model_upload_hf.ipynb
+05_run_test_inference.ipynb
+06_find_cer_stat.ipynb
+processed_test.csv
+requirements.txt
