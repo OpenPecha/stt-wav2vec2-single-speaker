@@ -1,0 +1,27 @@
+# Core libraries for machine learning and transformers
+torch                           # PyTorch core library for machine learning
+transformers                    # Hugging Face Transformers for NLP and speech models
+datasets                        # Hugging Face Datasets for data preparation and manipulation
+evaluate                        # Hugging Face Evaluate for evaluation metrics
+
+# Data handling and numerical computations
+numpy                           # Core library for numerical operations
+pandas                          # Data manipulation and analysis
+
+# Audio processing libraries
+librosa                         # Library for audio analysis and feature extraction
+torchaudio                      # PyTorch audio library for audio processing
+
+# Tools for training and logging
+wandb                           # Weights & Biases for experiment tracking
+accelerate                      # Library for distributed training optimization
+jiwer                            # Library for WER (Word Error Rate) evaluation
+ipywidgets                      # Jupyter widgets for interactive visualizations
+
+# Other dependencies
+ipython                         # Interactive computing environment for development
+git+https://github.com/huggingface/huggingface_hub  # Latest Hugging Face Hub library from GitHub
+
+# Install PyTorch with CUDA 12.4 support for optimal GPU performance
+# CUDA 12.4 is used to leverage the latest NVIDIA GPUs with enhanced performance and compatibility
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
